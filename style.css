@@ -84,3 +84,32 @@ html {
   font-size: 12px;
   text-align: center;
 }
+
+/* Special title*/
+.item__discount {
+  font-weight: bold;
+  color: #fc2727;
+}
+
+/*Checkout button */
+a.button {
+  border: 4px solid blueviolet;
+}
+
+/*
+when im using the order it doesn't work and don't
+ makes them in order thats why I changed from the html
+.item.item--discounted{
+
+  order: 1;
+}
+
+.item:first-child{
+  color: red;
+order: 2;
+}
+.item:last-child{
+  color:blue;
+  order: 3;
+}
+*/
